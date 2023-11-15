@@ -21,19 +21,29 @@ buttonElement.addEventListener('click', function() {
 
 let emailUtente = document.getElementById('email-utente').value;
 
+let trovata = false;
+
 for (let i = 0; i < listaEmail.length; i++){
     console.log(listaEmail[i]);
 
-    if (emailUtente != listaEmail[i]) {
+    /* if (emailUtente != listaEmail[i]) {
         alert('email inserita non presente nella lista')
     } else if (emailUtente === listaEmail[i]) {
         alert('complimenti, fai parte della lista')
-    }
+    } */
+
+    if (emailUtente === listaEmail[i]) {
+        trovata = true;
+    } 
     
-
-
 }
 
+
+if(trovata === true ) {
+    alert('la mail è stata trovata');
+} else {
+    alert('email non trovata')
+}
 
 })
 

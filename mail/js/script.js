@@ -29,11 +29,11 @@ for (let i = 0; i < listaEmail.length; i++){
 
 let emailUtente = document.getElementById('email-utente').value;
 
-if (emailUtente != listaEmail[i]) {
-    console.log('email inserita non presente nella lista')
-} else if (emailUtente == listaEmail[i]) {
-    console.log('complimenti, fai parte della lista')
-}
+// if (emailUtente != listaEmail[i]) {
+//     console.log('email inserita non presente nella lista')
+// } else if (emailUtente == listaEmail[i]) {
+//     console.log('complimenti, fai parte della lista')
+// }
 
 
 })

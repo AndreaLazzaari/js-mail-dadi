@@ -44,7 +44,6 @@ if(trovata === true ) {
 } else {
     alert('email non trovata')
 }
-
 })
 
 
